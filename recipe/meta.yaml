@@ -1,4 +1,4 @@
-{% set version = '0.2.2' %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bbotk_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bbotk/bbotk_{{ version }}.tar.gz
-  sha256: bb6387752a1d681111c087886f8889d6c93d660b3b11c0a35cb3b3eafd333f1a
+  sha256: 6073c8b16f552fda00ee2ca2f2376452c28dc98708f8df09bdaeb980395f724d
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -55,12 +55,10 @@ test:
 about:
   home: https://bbotk.mlr-org.com, https://github.com/mlr-org/bbotk
   license: LGPL-3.0-only
-  summary: Provides a common framework for optimization of black-box functions for other packages,
-    e.g. 'mlr3'. It offers various optimization methods e.g.  grid search, random search
-    and generalized simulated annealing.
+  summary: Provides a common framework for optimization of black-box functions for other packages, e.g. 'mlr3'. It offers various optimization methods e.g.  grid search, random search and generalized simulated annealing.
   license_family: LGPL
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3
 
 extra:
   recipe-maintainers:
