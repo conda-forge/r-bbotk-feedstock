@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bbotk_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bbotk/bbotk_{{ version }}.tar.gz
-  sha256: f991fb8efa40cefb36e2fee2dbf78e1651b4ec34b2063fdfed9148fd5cb7a92d
+  sha256: e76d2b948d633cf956115750967155e4a8260f94f7695e9efe5ad193c6379c25
 
 build:
   merge_build_host: true  # [win]
