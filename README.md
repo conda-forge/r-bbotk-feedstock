@@ -3,6 +3,7 @@ About r-bbotk-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bbotk-feedstock/blob/main/LICENSE.txt)
 
+
 About r-bbotk
 -------------
 
@@ -11,6 +12,7 @@ Home: https://bbotk.mlr-org.com, https://github.com/mlr-org/bbotk
 Package license: LGPL-3.0-only
 
 Summary: Provides a common framework for optimization of black-box functions for other packages, e.g. 'mlr3'. It offers various optimization methods e.g.  grid search, random search and generalized simulated annealing.
+
 About r-bbotk
 -------------
 
