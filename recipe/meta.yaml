@@ -33,18 +33,20 @@ requirements:
     - r-base
     - r-r6
     - r-checkmate >=2.0.0
+    - r-cli
     - r-data.table
     - r-lgr
-    - r-mlr3misc >=0.5.0
-    - r-paradox >=0.3
+    - r-mlr3misc >=0.15.1
+    - r-paradox >=1.0.0
   run:
     - r-base
     - r-r6
     - r-checkmate >=2.0.0
+    - r-cli
     - r-data.table
     - r-lgr
-    - r-mlr3misc >=0.5.0
-    - r-paradox >=0.3
+    - r-mlr3misc >=0.15.1
+    - r-paradox >=1.0.0
 
 test:
   commands:
