@@ -1,4 +1,4 @@
-{% set version = "1.7.1" %}
+{% set version = "1.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bbotk_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bbotk/bbotk_{{ version }}.tar.gz
-  sha256: 267e08d9fb37cd9d67f69a17788b1e55e5c6bb02ff42bc93008da2821f370706
+  sha256: e72c4985d85e3881b200c106fecbfdb23aee9551e00ba33f2210e31d8476d7e1
 
 build:
   number: 0
