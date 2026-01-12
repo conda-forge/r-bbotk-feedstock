@@ -12,7 +12,7 @@ source:
   sha256: f52b39c96958def38efbae06184729c266e504db8778780246db4b92161fb346
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -29,6 +29,13 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-r6                         # [build_platform != target_platform]
+    - r-checkmate >=2.0.0          # [build_platform != target_platform]
+    - r-cli                        # [build_platform != target_platform]
+    - r-data.table                 # [build_platform != target_platform]
+    - r-lgr                        # [build_platform != target_platform]
+    - r-mlr3misc >=0.15.1          # [build_platform != target_platform]
+    - r-paradox >=1.0.0            # [build_platform != target_platform]
   host:
     - r-base
     - r-r6
