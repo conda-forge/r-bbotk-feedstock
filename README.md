@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bbotk-feedsto
 About r-bbotk
 -------------
 
-Home: https://bbotk.mlr-org.com, https://github.com/mlr-org/bbotk
+Home: https://bbotk.mlr-org.com
 
 Package license: LGPL-3.0-only
 
-Summary: Provides a common framework for optimization of black-box functions for other packages, e.g. 'mlr3'. It offers various optimization methods e.g.  grid search, random search and generalized simulated annealing.
+Summary: Features highly configurable search spaces via the 'paradox' package and optimizes every user-defined objective function. The package includes several optimization algorithms e.g. Random Search, Iterated Racing, Bayesian Optimization (in 'mlr3mbo') and Hyperband (in 'mlr3hyperband'). bbotk is the base package of 'mlr3tuning', 'mlr3fselect' and 'miesmuschel'.
+
+Development: https://github.com/mlr-org/bbotk
 
 About r-bbotk
 -------------
 
-Home: https://bbotk.mlr-org.com, https://github.com/mlr-org/bbotk
+Home: https://bbotk.mlr-org.com
 
 Package license: LGPL-3.0-only
 
-Summary: Provides a common framework for optimization of black-box functions for other packages, e.g. 'mlr3'. It offers various optimization methods e.g.  grid search, random search and generalized simulated annealing.
+Summary: Features highly configurable search spaces via the 'paradox' package and optimizes every user-defined objective function. The package includes several optimization algorithms e.g. Random Search, Iterated Racing, Bayesian Optimization (in 'mlr3mbo') and Hyperband (in 'mlr3hyperband'). bbotk is the base package of 'mlr3tuning', 'mlr3fselect' and 'miesmuschel'.
+
+Development: https://github.com/mlr-org/bbotk
 
 Current build status
 ====================
