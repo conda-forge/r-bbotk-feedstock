@@ -1,4 +1,4 @@
-{% set version = "1.10.0" %}
+{% set version = "1.11.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bbotk_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bbotk/bbotk_{{ version }}.tar.gz
-  sha256: 267a98faa89110d923da7d2d5290b27fa8d291740458defb3a89b768beb89c89
+  sha256: 613271d4e6a0c986e842cee91f395ef2a01680ac880f175b831daa174f8356eb
 
 build:
   number: 0
@@ -68,11 +68,8 @@ about:
   home: https://bbotk.mlr-org.com
   dev_url: https://github.com/mlr-org/bbotk
   license: LGPL-3.0-only
-  summary: Features highly configurable search spaces via the 'paradox' package and optimizes
-    every user-defined objective function. The package includes several optimization
-    algorithms e.g. Random Search, Iterated Racing, Bayesian Optimization (in 'mlr3mbo')
-    and Hyperband (in 'mlr3hyperband'). bbotk is the base package of 'mlr3tuning', 'mlr3fselect'
-    and 'miesmuschel'.
+  summary: Features highly configurable search spaces via the 'paradox' package and optimizes every user-defined objective function. The package includes several optimization algorithms e.g. Random Search, Iterated Racing, Bayesian Optimization (in 'mlr3mbo') and Hyperband (in 'mlr3hyperband'). bbotk is the base 
+    package of 'mlr3tuning', 'mlr3fselect' and 'miesmuschel'.
   license_family: LGPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3
